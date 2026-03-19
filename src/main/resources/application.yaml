@@ -1,0 +1,14 @@
+#spring:
+#  application:
+#    name: service-registry
+#
+#  config:
+#    import: "configserver:"
+#
+#  cloud:
+#    config:
+#      uri: http://config.platform:9000
+
+spring:
+  profiles:
+    active: dev
